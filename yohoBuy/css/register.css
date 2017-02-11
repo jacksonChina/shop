@@ -1,0 +1,31 @@
+.rl-content-wrapper .rl-content{width: 100%;overflow: hidden;}
+.rl-content-wrapper .rl-content{width: 1150px;height: 630px;margin: 0 auto;overflow: hidden;}
+.rl-content-wrapper .rl-content .rl-content-left{float:left;width: 576px;height: 418px;border-right: 1px solid #dfdfdf;margin-top: 120px;}
+.rl-content-wrapper .rl-content .rl-content-left a{display: block;margin-left: 140px;padding-top: 100px;}
+.rl-content-wrapper .rl-content .rl-content-right{width: 415px;height: 418px;float: left;padding-top: 120px;margin-left: 80px;}
+.rl-content-wrapper .rl-content .rl-content-right .register{width: 300px;}
+.rl-content-wrapper .rl-content .rl-content-right .region{width: 132px;padding: 4px 0;height: 30px;color: #9a9a9a;border-color: #c1c1c1;font-family: "黑体";font-size: 16px;}
+.rl-content-wrapper .rl-content .rl-content-right .register .phone{width: 209px;display: block;height: 43px;border: 1px solid #dbdbdb;font-size: 16px;line-height: 43px;float: left;padding: 0;}
+.rl-content-wrapper .rl-content .rl-content-right .register .string{width: 58px;height: 43px;border: 1px solid #DBDBDB;line-height: 43px;font-size: 16px;text-align: center;display: block;float: left;}
+.rl-content-wrapper .rl-content .rl-content-right .register .siphone{margin-top: 20px;overflow: hidden;}
+.rl-content-wrapper .rl-content .rl-content-right .register .test{padding:0;width: 160px;height: 43px;border: 1px solid #DBDBDB;line-height: 43px;font-size: 16px;display: block;float: left;}
+.rl-content-wrapper .rl-content .rl-content-right .register .test-in{margin-top: 20px;overflow: hidden;}
+.rl-content-wrapper .rl-content .rl-content-right .register .test-in a{font-size: 14px;color: red;display: block;height: 43px;line-height: 43px;width: 50px;float: left;margin-left: 10px;}
+.rl-content-wrapper .rl-content .rl-content-right .register .mesg{padding:0;width: 160px;height: 43px;border: 1px solid #DBDBDB;line-height: 43px;font-size: 16px;display: block;float: left;}
+.rl-content-wrapper .rl-content .rl-content-right .register .message{margin-top: 20px;overflow: hidden;}
+.rl-content-wrapper .rl-content .rl-content-right .register .getmsg{background-color: #555;padding: 0;width:100px;height: 45px;border: none;text-align: center;font-family: "黑体";line-height: 45px;color: #FFFFFF;float: left;margin-left: 10px;}
+.rl-content-wrapper .rl-content .rl-content-right .register .setpwd{margin-top: 20px;overflow: hidden;}
+.rl-content-wrapper .rl-content .rl-content-right .register .pwd{width: 270px;height: 45px;line-height: 45px;border: 1px solid #DBDBDB;text-indent: 10px;font-size: 16px;padding: 0;color: #9a9a9a;}
+.rl-content-wrapper .rl-content .rl-content-right .setpwd .pwd-intensitylow{padding: 1px 10px;background-color: #e8e8e8;font-size: 12px;text-align: center;height: 15px;color: #B9B9B9;display: block;width: 15px;float: left;}
+.rl-content-wrapper .rl-content .rl-content-right .setpwd .pwd-intensitymid{padding: 1px 10px;background-color: #e8e8e8;font-size: 12px;text-align: center;height: 15px;color: #B9B9B9;display: block;width: 15px;float: left;margin-left: 5px;}
+.rl-content-wrapper .rl-content .rl-content-right .setpwd .pwd-intensityhigh{padding: 1px 10px;background-color: #e8e8e8;font-size: 12px;text-align: center;height: 15px;color: #B9B9B9;display: block;width: 15px;float: left;margin-left: 5px;margin-right: 30px;}
+.rl-content-wrapper .rl-content .rl-content-right .setpwd .pwd-intensity-container{float: right;overflow: hidden;margin-top: 8px;}
+.rl-content-wrapper .rl-content .rl-content-right .agree{margin-top: 20px;overflow: hidden;}
+.rl-content-wrapper .rl-content .rl-content-right .agree span{font-size: 13px;}
+.rl-content-wrapper .rl-content .rl-content-right .agree span a{color: red;}
+.rl-content-wrapper .rl-content .rl-content-right .onsubmit{margin-top: 20px;overflow: hidden;}
+.rl-content-wrapper .rl-content .rl-content-right .rightnow-register{width: 270px;font-size: 27px;text-align: center;font-family: "黑体";line-height: 45px;height: 45px;border: none;color: #FFFFFF;background: #555;}
+.rl-content-wrapper .rl-content .rl-content-right .quick-login{margin-top: 20px;overflow: hidden;font-size: 13px;text-align: center;}
+.rl-content-wrapper .rl-content .rl-content-right .quick-login .link-go-login{color: red;}
+.err-tip{position: absolute;color: red;z-index: 10;width: 240px;height: 43px;line-height: 43px;border: 1px solid #ffbdbe;background: #ffebeb;display: none;}
+.try{width: 50px;background: white;margin-left:5px;height: 30px;display: block;margin-top: 10px;text-align: center;font-size: 16px;border: none;}

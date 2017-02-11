@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>YohoBuy Products List</title>
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript" src="../js/goodlist-ajax.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/goodlist.css"/>
+	 <script type="text/javascript" src="../js/goodlist.js"></script>
+	 <script type="text/javascript"src="../lib/jquery.cookie.js"></script>
+	</head>
+	<body>
+		<div class="return-top">
+			^
+		</div>
+		 <div class="effect"></div>
+		<div id="header"></div>
+		<div class="goodlist-wrapper">
+			<div class="goodlist-content">
+				<div class="goolist-a">
+					<a href="homePage.html">GIRLS首页</a>><a href="javascripg:;" class="a1">上衣</a>><a href="javascripg:;"class="a2">卫衣</a>
+				</div>
+				<div class="goodlist-list">
+					<ul class="meanu">
+						<li><a href="javascript:;">全部品类</a></li>
+						<li><span class="upper">上衣</span>
+							<ul class='cloes-list' style="height: 390px;">
+								<li><a href="javascript:;">全部上衣</a></li>
+								<li><a href="javascript:;">棉衣</a></li>
+								<li><a href="javascript:;">羽绒服</a></li>
+								<li><a href="javascript:;">大衣/风衣</a></li>
+								<li><a href="javascript:;">防风外套</a></li>
+								<li><a href="javascript:;">夹克</a></li>
+								<li><a href="javascript:;">毛衣/针织</a></li>
+								<li><a href="javascript:;">卫衣</a></li>
+								<li><a href="javascript:;">皮衣</a></li>
+								<li><a href="javascript:;">西装</a></li>
+								<li><a href="javascript:;">衬衫</a></li>
+								<li><a href="javascript:;">T恤</a></li>
+								<li><a href="javascript:;">POLO</a></li>
+								<li><a href="javascript:;">马甲</a></li>
+								<li><a href="javascript:;">背心</a></li>
+								<li><a href="javascript:;">套装</a></li>
+								
+							</ul>
+						</li>
+						<li><span class="coving">裤装</span>
+							<ul class='coving-list'>
+								<li><a href="javascript:;">全部裤装</a></li>
+								<li><a href="javascript:;">休闲裤</a></li>
+								<li><a href="javascript:;">牛仔裤</a></li>
+								<li><a href="javascript:;">短裤</a></li>
+								<li><a href="javascript:;">运动裤</a></li>
+								<li><a href="javascript:;">打底裤</a></li>
+								<li><a href="javascript:;">连体裤</a></li>
+								<li><a href="javascript:;">西裤</a></li>
+								
+								
+							</ul>
+						</li>
+						<li><span class="skirt">裙装</span>
+							<ul class='skirt-list'>
+								<li><a href="javascript:;">全部裙装</a></li>
+								<li><a href="javascript:;">连衣裙</a></li>
+								<li><a href="javascript:;">半身裙</a></li>
+							</ul>
+						</li>
+						<li><span class="shoes">鞋靴</span>
+							<ul class='shoes-list'>
+								<li><a href="javascript:;">全部鞋靴</a></li>
+								<li><a href="javascript:;">休闲/运动鞋</a></li>
+								<li><a href="javascript:;">靴子</a></li>
+								<li><a href="javascript:;">时装鞋</a></li>
+								<li><a href="javascript:;">凉鞋/拖鞋</a></li>
+								<li><a href="javascript:;">保养护理</a></li>
+								
+							</ul>
+						</li>
+						<li><span class="bag">包类/装备</span>
+							<ul class='bag-list'>
+								<li><a href="javascript:;">全部包类/装备</a></li>
+								<li><a href="javascript:;">双肩包</a></li>
+								<li><a href="javascript:;">手拎包/单肩包</a></li>
+								<li><a href="javascript:;">钱包/卡包/手包/钥匙包</a></li>
+								<li><a href="javascript:;">腰包</a></li>
+								<li><a href="javascript:;">邮差包</a></li>
+								<li><a href="javascript:;">电脑包</a></li>
+								<li><a href="javascript:;">储物包</a></li>
+								<li><a href="javascript:;">环保包</a></li>
+								<li><a href="javascript:;">装备</a></li>
+								<li><a href="javascript:;">包配</a></li>
+								<li><a href="javascript:;">tote包</a></li>
+								<li><a href="javascript:;">旅行包</a></li>
+								<li><a href="javascript:;">旅行箱</a></li>
+								<li><a href="javascript:;">mini包</a></li>
+								<li><a href="javascript:;">剑桥包</a></li>
+							</ul>
+						</li>
+						<li><span class="ornament">配饰</span>
+							<ul class='ornament-list'>
+								<li><a href="javascript:;">全部配饰</a></li>
+								<li><a href="javascript:;">帽子</a></li>
+								<li><a href="javascript:;">太阳镜/眼镜</a></li>
+								<li><a href="javascript:;">首饰</a></li>
+								<li><a href="javascript:;">袜子</a></li>
+								<li><a href="javascript:;">配饰</a></li>
+								<li><a href="javascript:;">手表</a></li>
+								<li><a href="javascript:;">围巾</a></li>
+								<li><a href="javascript:;">手帕</a></li>
+								<li><a href="javascript:;">手套</a></li>
+								<li><a href="javascript:;">披肩</a></li>
+								<li><a href="javascript:;">丝巾</a></li>
+								<li><a href="javascript:;">口罩</a></li>
+								
+							</ul>
+						</li>
+						<li><span class="fitment">内衣/家居服</span>
+							<ul class='fitment-list'>
+								<li><a href="javascript:;">全部内衣/家居服</a></li>
+								<li><a href="javascript:;">内裤</a></li>
+								<li><a href="javascript:;">文胸</a></li>
+								<li><a href="javascript:;">家居服</a></li>
+								<li><a href="javascript:;">家具鞋</a></li>
+								
+								
+							</ul>
+						</li>
+						<li><span class="life">创意生活</span>
+							<ul class='life-list'>
+								<li><a href="javascript:;">全部创意生活</a></li>
+								<li><a href="javascript:;">数码3C</a></li>
+								<li><a href="javascript:;">居家</a></li>
+								<li><a href="javascript:;">玩具娱乐</a></li>
+								<li><a href="javascript:;">文具</a></li>
+								<li><a href="javascript:;">美妆</a></li>
+								<li><a href="javascript:;">宠物周边</a></li>
+								
+								
+								
+							</ul>
+						</li>
+						<li><span class="swim">泳衣</span>
+							<ul class='swim-list'>
+								<li><a href="javascript:;">全部泳衣</a></li>
+								<li><a href="javascript:;">泳衣</a></li>
+						    </ul>
+						</li>
+						<li><span class="child">潮童</span>
+							<ul class='child-list'>
+								<li><a href="javascript:;">全部潮童</a></li>
+								<li><a href="javascript:;">卫衣</a></li>
+								<li><a href="javascript:;">毛衣/针织</a></li>
+								<li><a href="javascript:;">夹克</a></li>
+								<li><a href="javascript:;">大衣/风衣</a></li>
+								<li><a href="javascript:;">休闲裤</a></li>
+								<li><a href="javascript:;">牛仔裤</a></li>
+								<li><a href="javascript:;">运动裤</a></li>
+								<li><a href="javascript:;">打底裤/紧身裤</a></li>
+								<li><a href="javascript:;">休闲/运动鞋</a></li>
+								<li><a href="javascript:;">靴子</a></li>
+								<li><a href="javascript:;">双肩包</a></li>
+								<li><a href="javascript:;">太阳镜/眼镜</a></li>
+								<li><a href="javascript:;">玩具娱乐</a></li>
+								<li><a href="javascript:;">棉衣</a></li>
+								<li><a href="javascript:;">羽绒服</a></li>
+								<li><a href="javascript:;">防风外套</a></li>
+								<li><a href="javascript:;">西装</a></li>
+								<li><a href="javascript:;">连体裤</a></li>
+								<li><a href="javascript:;">马甲</a></li>
+								<li><a href="javascript:;">套装</a></li>
+								<li><a href="javascript:;">袜子</a></li>
+								<li><a href="javascript:;">T恤</a></li>
+								<li><a href="javascript:;">衬衫</a></li>
+								<li><a href="javascript:;">连衣裙</a></li>
+								<li><a href="javascript:;">半身裙</a></li>
+								<li><a href="javascript:;">POLO</a></li>
+								<li><a href="javascript:;">背心</a></li>
+								<li><a href="javascript:;">短裤</a></li>
+								<li><a href="javascript:;">凉鞋/拖鞋</a></li>
+								<li><a href="javascript:;">毛毯</a></li>
+								<li><a href="javascript:;">首饰</a></li>
+								<li><a href="javascript:;">时装鞋</a></li>
+								<li><a href="javascript:;">手拎包/单肩包</a></li>
+								<li><a href="javascript:;">帽子</a></li>
+								<li><a href="javascript:;">围兜</a></li>
+								<li><a href="javascript:;">家居服</a></li>
+								<li><a href="javascript:;">配饰</a></li>
+								<li><a href="javascript:;">围巾</a></li>
+								<li><a href="javascript:;">手帕</a></li>
+								<li><a href="javascript:;">雨伞/雨衣</a></li>
+								<li><a href="javascript:;">泳衣</a></li>
+								<li><a href="javascript:;">睡袋</a></li>
+								
+								
+								
+						    </ul>
+						</li>
+						
+						
+					</ul>
+					<img src="../img/a1.jpg"/>
+					<img src="../img/a2.jpg"/>
+					<img src="../img/a3.jpg"/>
+					
+				</div>
+			<div class="goodlist-right">
+				<div class="detail">
+					
+		    					<p class="name">卫衣</p>
+		    					<p class="en-name">HOODIES &amp; SWEATSHIRTS</p>
+		    					<p class="desc">“卫衣”诞生于上世纪30年代的美国纽约，当时是为冷库工作者生产的工装。卫衣外套绝对是时尚达人衣柜里必不可少的时髦单品，休闲的卫衣外套带来了舒适感及时尚感，打造出十足的型格魅力。
+		</p>
+		    					<div class="key-entry">
+		    					</div>
+		    					
+		    				
+				</div>
+				<img src="../img/weiyi.jpg"/>
+			</div>
+			
+			<div class="filter-box">
+				<div class="attr-content">
+					<span class="attr">已选条件:</span><a href="javascript" class="girls">GIRLS</a>
+				</div>
+				<div class="channel">
+					<span class="attr">性别:</span><a href="javascript:;"class="attr-string">BOYS</a><a href="javascript:;"class="attr-string"style="color: red;">GIRLS</a>
+				</div>
+			   <div class="brand-select">
+			   	<span class="attr">品牌:</span>
+			   	<div class="brand-right">
+			   		<li class="attr-string01"><a href="javascript:;">LALABOBO</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">PASS</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">I LOVE CHOC</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">初语</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">SNEAKY</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">更多</a><a href="javascript:;">多选+</a></li>
+			   		
+			   		<li class="attr-string01"><a href="javascript:;">秋壳</a></li>
+			   		<li class="attr-string01"><a href="javascript:;" class="iyogurt">iyogurt</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">JOYRICH</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">衫国演义</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">dress lab</a></li>
+			   </div>
+			   	</div>
+			<div class="people"><span class="attr">人群:</span><a href="javascript:;"class="attr-string">成人</a><a href="javascript:;"class="attr-string">大童(11-15岁)</a></div>
+			<div class="price"><span class="attr">价格:</span><a href="javascript:;"class="attr-string">¥0-319</a><a href="javascript:;"class="attr-string">¥320-489</a><a href="javascript:;"class="attr-string">490-879</a><a href="javascript:;"class="attr-string">¥879以上</a></div>
+			<div class="color"><span class="attr">颜色:</span>
+				<div class="brand-right01">
+				<ul>
+				<li><span class='color-block' style="background: black;"></span><a href="javascript:;">黑色</a></li>
+				<li><span class='color-block' style="background: white;"></span><a href="javascript:;">白色</a></li>
+				<li><span class='color-block' style="background: gray;"></span><a href="javascript:;">灰色</a></li>
+				<li><span class='color-block' style="background: blue;"></span><a href="javascript:;">蓝色</a></li>
+				<li><span class='color-block' style="background: red;"></span><a href="javascript:;">红色</a></li>
+				<li><span class='color-block' style="background: white;"></span><a href="javascript:;">彩色</a></li>
+				<li><span class='color-block' style="background: yellow;"></span><a href="javascript:;">黄色</a></li>
+				<li><span class='color-block' style="background: green;"></span><a href="javascript:;">绿色</a></li>
+				<li><span class='color-block' style="background: #8b5402;"></span><a href="javascript:;">棕色</a></li>
+				<li><span class='color-block' style="background: orange;"></span><a href="javascript:;">橙色</a></li>
+				<li><span class='color-block' style="background: #710098;"></span><a href="javascript:;">紫色</a></li>
+				<li><span class='color-block' style="background: gold;"></span><a href="javascript:;">金色</a></li>
+				<li><span class='color-block' style="background: ghostwhite;"></span><a href="javascript:;">银色</a></li>
+				
+				</ul>
+			</div></div>
+			<div class="brand-select">
+			   	<span class="attr">尺码:</span>
+			   	<div class="brand-right02">
+			   		<li class="attr-string01"><a href="javascript:;">M</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">S</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">L</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">XL</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">XS</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">F</a></li>
+			   		
+			   		<li class="attr-string01"><a href="javascript:;">XXL</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">XXS</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">38</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">36</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">40</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">34</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">32</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">1</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">3码</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">1码</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">2</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">2码</a></li>
+			   		<li class="attr-string01"><a href="javascript:;">3</a></li>
+			   		
+			   </div>
+			</div>
+			<div class="price"><span class="attr">高级选项:</span><a href="javascript:;"class="attr-string">风格</a><a href="javascript:;"class="attr-string">版型</a><a href="javascript:;"class="attr-string">厚度</a><a href="javascript:;"class="attr-string">衣长</a><a href="javascript:;"class="attr-string">袖长</a><a href="javascript:;"class="attr-string">领型</a></div>
+			</div>
+		   <div class="sort-page">
+		   	<span class="attr">默认</span>
+		   	<ul class="sort-page-list">
+         	<li><a href="javascript:;">最新</a></li>
+		   	<li><a href="javascript:;" class="price-sort">价格</a></li>
+		   	<li><a href="javascript:;">折扣</a></li>
+		   	<li><a href="javascript:;"><input type="checkbox"/>新品</a></li>
+		   	<li><a href="javascript:;"><input type="checkbox"/>打折</a></li>
+		   	<li><a href="javascript:;"><input type="checkbox"/>限量</a></li>
+		   	
+		   		</ul>
+		   		
+		   </div>
+		   <div class="list-show">
+		  <div class="connent-bottom"><span class="pag-sum">2420 - 2471 / 共2471件商品</span>
+		  	<ul class="meanu-pag">
+		  		<li style="width: 72px;"><a href="javascript:;"><上一页</a></li>
+		  		<li><a href="javascript:;">1</a></li>
+		  		<li><a href="javascript:;">...</a></li>
+		  		<li><a href="javascript:;">38</a></li>
+		  		<li><a href="javascript:;">39</a></li>
+		  		<li><a href="javascript:;">40</a></li>
+		  		<li><a href="javascript:;">41</a></li>
+		  		<li style="background: #000000;color: white;"><a href="javascript:;">42</a></li>
+		  		
+		  		
+		  	</ul>
+		  </div>
+		   </div>
+		   
+			</div>
+		<div id="footer"></div>
+		<script type="text/javascript">
+			loadHtml("common/header.html","header",function()
+			{
+				if($.cookie("login"))
+				{
+			    var sum=0;
+				var sCookie=$.cookie("login");
+				var arrCookie=JSON.parse(sCookie)
+				$('#loginBox li').eq(0).html("<a href='javascript:;'style='color:black'>Hi~"+arrCookie.data.userphone+"</a><a href='javascript:;'class='quit'>[退出]</a>");
+			if($.cookie("cart")){
+				var userphone=JSON.parse($.cookie("login")).data.userphone
+				var sCookie=JSON.parse($.cookie("cart"));
+				console.log(userphone);
+			$.each(sCookie, function(index,ele) {
+				
+				if(ele.userphone==userphone)
+				{
+				sum+=parseInt(ele.num);
+				}
+				
+			});
+			}
+			$('.number').html(sum);
+				
+				}
+			});
+			loadHtml("common/footer.html","footer");
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>YohoBuy HomePage</title>	
+		<script src="../lib/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<script type="text/javascript" src="../lib/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="../js/common.js"></script>
+
+	</head>
+
+	<body>
+		<div id='header'></div>
+	    <div id="main"></div>
+	    <div id="footer"></div>
+	   
+	 <script>
+			loadHtml("common/header.html","header");
+			loadHtml("common/footer.html","footer");
+			loadHtml("main.html","main",function()
+			{
+				if($.cookie("login"))
+				{
+			    var sum=0;
+				var sCookie=$.cookie("login");
+				var arrCookie=JSON.parse(sCookie);
+				
+				$('#loginBox li').eq(0).html("<a href='javascript:;'style='color:black'>Hi~"+arrCookie.data.userphone+"</a><a href='javascript:;' class='quit'>[退出]</a>");
+				if($.cookie("cart")){
+				var userphone=JSON.parse($.cookie("login")).data.userphone
+				var sCookie=JSON.parse($.cookie("cart"));
+				console.log(userphone);
+			$.each(sCookie, function(index,ele) {
+				console.log(ele.num)
+				if(ele.userphone==userphone)
+				{
+				sum+=parseInt(ele.num);
+				}
+				
+			});
+			}
+			$('.number').html(sum);
+			
+				}
+				$.get("../data/homePage/main.json",function(res){
+					$.each(res.banner01, function(index,ele) {
+			
+			$('.bigImg').append("<li><a href='javascript:;'><img src="+ ele.src +"/></a></li>")
+			$('.bigImg').find('li').eq(0).css({'opacity':1})
+		});
+		var index = 0;
+	$('.next').click(function() {
+		clearTimeout(timer);
+		index++;
+		move();
+	})
+
+	$('.prev').click(function() {
+		clearTimeout(timer);
+		index--;
+		move();
+	})
+	var timer = setTimeout(function() {
+
+		index++;
+		move();
+
+	}, 3000);
+
+	function move() {
+		if(index == -1) {
+			index = 7;
+		}
+		if(index == 8) {
+			index = 0;
+		}
+		clearTimeout(timer);
+		$('.smallBtn li').eq(index).addClass('choise').siblings().removeClass('choise');
+
+		$('.bigImg li').eq(index).animate({
+			'opacity': 1
+		}, function() {
+
+			timer = setTimeout(function() {
+				index++;
+				move();
+
+			}, 3000)
+		}).siblings().animate({
+			'opacity': 0
+		});
+
+	}
+	$('.bigImg').hover(function(){
+		clearTimeout(timer);
+	},function()
+	{
+		timer=setTimeout(function() {
+			index++;
+			move();
+		}, 3000)
+	})
+	$('.smallBtn li').hover(function() {
+		//enter
+		
+		$(this).addClass('choise').siblings().removeClass('choise');;
+		clearTimeout(timer);
+		
+		index = $(this).index();
+		
+
+		$('.bigImg li').eq(index).stop().animate({
+			'opacity': 1
+		}).siblings().stop().animate({
+			'opacity': 0
+		});
+		
+	}, function() {
+		//leave
+		
+		timer = setTimeout(function() {
+			index++;
+			move();
+		}, 3000)
+	});
+				})
+			});
+			
+	</script>
+	</body>
+
+</html>
+

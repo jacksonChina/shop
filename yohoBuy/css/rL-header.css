@@ -1,0 +1,25 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, 
+abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, 
+strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, 
+legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, 
+summary,time, mark, audio, video { margin: 0; padding: 0; }
+/*可选：将整个页面的行高设为 1倍 */
+body { line-height: 1; font-family: arial,simhei;width: 100%;margin: 0 auto;font-size: 100%;}
+ul li, ol li { list-style: none; }
+table {	border-collapse: collapse; border-spacing: 0;}
+a { text-decoration: none; color: inherit; }
+/* 解决div内插入图片的下缝隙bug */
+div img { display: block; }
+/* 万能清除法 */
+.clearfix:after { display: block; content: ""; width: 0; height: 0; visibility: hidden; clear: both; }
+/* 垂直居中 */
+.ghost-center:after { display: inline-block; height: 100%; width: 0%; visibility: hidden; vertical-align: middle; content: ""; }
+.ghost-center-target { display: inline-block; vertical-align: middle; }
+.rL-header{width: 100%;border-bottom: 1px solid black;}
+.rL-header .rL-header-wrapper {width: 1150px;overflow: hidden;margin: 0 auto;}
+.rL-header .rL-header-wrapper .logo{background-image: url(../img/logo-en.png);background-repeat: no-repeat;display: inline-block;width: 171px;height: 40px;margin-top: 10px;margin-left: 50px;}
+.rL-header .rL-header-wrapper .rL-nav{width: 440px;height: 65px;float: right;line-height:65px ;}
+.rL-header .rL-header-wrapper .rL-nav li{float: left;font-size: 12px;padding: 0 10px;}
+.rL-header .rL-header-wrapper .rL-nav li .tip{margin-left:2px;margin-top:28px;float:right;width:10px;height:13px;background-image: url(../img/sprite.layout.png);background-position: -30px -13px;display: inline-block;}
+

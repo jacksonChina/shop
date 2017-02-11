@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>yo-ho!Buy 购物车</title>
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/rL-header.css" />
+		<link rel="stylesheet" type="text/css" href="../css/cart.css" />
+		<script type="text/javascript" src="../lib/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../js/cart.js"></script>
+	</head>
+
+	<body>
+		<div id="header"></div>
+		<div class="order-wrapper">
+			<div class="order-edit">
+				<div class="order-top"><img src="../img/cart-top.png" /></div>
+				<table id="sum">
+					<tr>
+						<th style="width: 37%;">商品信息</th>
+						<th style="width: 13%;">单价(元)</th>
+						<th style="width: 10%;">返回货币</th>
+						<th style="width: 10%;">数量</th>
+						<th style="width: 10%;">小计(元)</th>
+						<th style="width: 20%;">操作</th>
+
+					</tr>
+					<tr class="empty-tr">
+						<td class="empty-cart" colspan="6"><img src="../img/cart-empty.png" />
+							<a href="goodList.html" class="select-shoes">选购商品</a>
+						</td>
+					</tr>
+
+				</table>
+				<div class="sum-message">总结:<span class="sum-string"></span></div>
+				<div>
+					<input type="button" value="结算" class="get" />
+				</div>
+				<img style="margin-top: 160px;display: block;cursor: pointer;" src="../img/cart-list01.png"/>
+			</div>
+
+		</div>
+		<div id="footer"></div>
+		<script type="text/javascript">
+			loadHtml("common/footer.html", "footer");
+			loadHtml("common/rL-header.html", "header", function() {
+				if($.cookie("login")) {
+					var sCookie = $.cookie("login");
+					var arrCookie = JSON.parse(sCookie)
+					$('.rL-nav li').eq(0).html("<a href='javascript:;'style='color:black'>Hi~" + arrCookie.data.userphone + "</a><a href='javascript:;' class='quit'>[退出]</a>");
+
+				}
+			});
+		</script>
+	</body>
+
+</html>

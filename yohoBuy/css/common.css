@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, 
+abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, 
+strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, 
+legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, 
+summary,time, mark, audio, video { margin: 0; padding: 0; }
+/*可选：将整个页面的行高设为 1倍 */
+body { line-height: 1; font-family: arial,simhei;width: 100%;margin: 0 auto;font-size: 100%;}
+ul li, ol li { list-style: none; }
+table {	border-collapse: collapse; border-spacing: 0;}
+a { text-decoration: none; color: inherit; }
+/* 解决div内插入图片的下缝隙bug */
+div img { display: block; }
+/* 万能清除法 */
+.clearfix:after { display: block; content: ""; width: 0; height: 0; visibility: hidden; clear: both; }
+/* 垂直居中 */
+.ghost-center:after { display: inline-block; height: 100%; width: 0%; visibility: hidden; vertical-align: middle; content: ""; }
+.ghost-center-target { display: inline-block; vertical-align: middle; }
+.yoho-header{vertical-align: baseline;}
+.yoho-header .tool-wrapper{height: 32px;width: 100%;font-size: 12px;line-height: 32px;background-color: #f4f4f4;}
+.yoho-header .tool-wrapper .center-content{width: 1150px;margin-left: auto;margin-right: auto;}
+.yoho-header .tool-wrapper .yoho-group-map-left{color: #000;cursor: pointer;float: left;padding:0 5px;display: block;vertical-align:top;margin-left: 10px;}
+.yoho-header .tool-wrapper .yoho-group-map-left .icon-hamburger{margin-top:10px;float:left;width:16px;height:12px;background-image: url(../img/sprite.layout.png);background-position: 0 -12px;display: inline-block;vertical-align:middle}
+.yoho-header .tool-wrapper .yoho-group-map-left a{float: left;}
+.yoho-header .tool-wrapper .yoho-buy-tools-right{float:right;padding-right: 20px;}
+.yoho-header .tool-wrapper .yoho-buy-tools-right ul{margin-top: 10px;}
+.yoho-header .tool-wrapper .yoho-buy-tools-right li{ float: left;padding: 0 10px;border-right: 1px solid #8E8E8E;display: block;height: 15px;line-height: 15px;}
+.yoho-header .tool-wrapper .yoho-buy-tools-right li a{color: #8e8e8e;font-size: 10px;}
+.yoho-header .tool-wrapper .yoho-buy-tools-right .tip{margin-left:2px;margin-top:4px;float:right;width:10px;height:13px;background-image: url(../img/sprite.layout.png);background-position: -30px -13px;display: inline-block;vertical-align:middle}
+.yoho-header .tool-wrapper .yoho-buy-tools-right .dd{margin-right:2px;margin-top:1px;float:left;width:11px;height:14px;background-image: url(../img/sprite.layout.png);background-position: -18px 0;display: inline-block;vertical-align:middle}
+.yoho-header .tool-wrapper .yoho-buy-tools-right .aa{margin-right:2px;margin-top:2px;float:left;width:12px;height:11px;background-image: url(../img/sprite.layout.png);background-position: -30px 0;display: inline-block;vertical-align:middle}
+.yoho-header .tool-wrapper .yoho-buy-tools-right .new{margin-right:2px;margin-top:2px;float:left;width:17px;height:11px;background-image: url(../img/sprite.layout.png);display: inline-block;vertical-align:middle}
+.yoho-header .tool-wrapper .yoho-buy-tools-right .phonelogo{margin-right:2px;margin-top:2px;float:left;width:9px;height:14px;background-image: url(../img/sprite.layout.png);display: inline-block;vertical-align:middle;background-position: 0 -25px;}
+.yoho-header .header-wrapper{height: 90px;overflow: hidden;margin: 0 auto;width:100%;}
+.yoho-header .header-wrapper .header-all{width: 1150px;height: 90px;margin: 0 auto;overflow: hidden;}
+.yoho-header .header-wrapper .header-all .header-left{float: left;width: 400px;height: 80px;}
+.yoho-header .header-wrapper .header-all .header-left ul{margin-top: 50px;}
+.yoho-header .header-wrapper .header-all .header-left ul li{float:left;display: block;width: 80px;height:40px;text-align: center;padding-top: 5px;}
+.yoho-header .header-wrapper .header-all .header-left ul li .string-top{font-size: 15px;font-weight: normal;}
+.yoho-header .header-wrapper .header-all .header-left ul li .string-bottom{font-size: 12px;font-weight: normal;color:#8e8e8e;margin-top: 2px;}
+.yoho-header .header-wrapper .header-all .header-logo {float:left;background-image: url(../img/logo-en.png);width: 190px;height: 40px;background-repeat:no-repeat;margin-top:30px;margin-left: 40px;}
+.yoho-header .header-wrapper .header-all .header-right{width:300px;height: 30px;float:right;margin-top: 50px;margin-right: 60px;}
+.yoho-header .header-wrapper .header-all .header-right .content{width: 180px;height:24px;border:1px solid #ff88ae;float: left;}
+.yoho-header .header-wrapper .header-all .header-right .search-btn{float:left;width:78px;height: 28px;border: none;cursor: pointer;background-image: url(../img/QQ图片20161119090534_03.gif);}
+.yoho-header .header-wrapper .header-all .header-right a{display: block;left:280px;position: relative;width: 20px;top: -30px;}
+.yoho-header .header-wrapper .header-all .header-right a .number{display: block;top:-40px;left:21px;position: relative;width: 20px;height: 20px;border-radius:15px;background: #db1c1d;text-align: center;line-height: 20px;color: white;}
+.yoho-header .nav-wrapper {width:100%;overflow: hidden;background-color: #ff88ae;margin: 0 auto;}
+.yoho-header .nav-wrapper .nav-wrapper-header {width:1150px;height: 40px;margin: 0 auto;overflow: hidden;}
+.yoho-header .nav-wrapper .nav-wrapper-header .nav-list{}
+.yoho-header .nav-wrapper .nav-wrapper-header .nav-list li{float: left;width: 120px;display: block;line-height: 40px;color: white;}
+.yoho-footer {width: 100%;background: #000;}
+.active{background-color: #ff88ae; color: white;}
+.yoho-header .header-wrapper .header-all .header-left .active .string-bottom{color: white;!important}
+.yoho-footer .yoho-footer-content{width: 1150px;height: 295px;margin: 0 auto;overflow: hidden;}
+.yoho-footer .yoho-footer-content .footer-top {width: 1150px;border-bottom: 1px solid #CCC;padding-bottom: 12px;margin-top: 5px;overflow: hidden;}
+.yoho-footer .yoho-footer-content .footer-top .footer-left{width: 180px;height: 50px;float: left;margin-left: 3px;}
+.yoho-footer .yoho-footer-content .footer-top .z-logo{background-image: url(../img/QQ图片20161119131648_03.gif);width: 46px;height: 45px;display: inline-block;margin-top: 10px;float: left;}
+.yoho-footer .yoho-footer-content .footer-top .sr{color: #e01;margin-top: 25px;display: block;float: left;font-size: 14px;margin-left: 2px;}
+.yoho-footer .yoho-footer-content .footer-top .sw{color: white;display: block;float: left;margin-top: 25px;margin-left: 3px;font-size: 12px;}
+.yoho-footer .yoho-footer-content .footer-top .c-logo{background-image: url(../img/QQ图片20161119131648_05.gif);width: 46px;height: 45px;display: inline-block;margin-top: 10px;float: left;}
+.yoho-footer .yoho-footer-content .footer-top .w-logo{background-image: url(../img/1_07.gif);width: 40px;height: 45px;display: inline-block;margin-top: 10px;float: left;}
+.yoho-footer .yoho-footer-content .footer-top .footer-right{width: 200px;height: 34px;float: right;border: 1px solid #CCC;margin-top: 14px;}
+.yoho-footer .yoho-footer-content .footer-top .footer-right .email-content{width: 140px;height: 32px;line-height: 32px;background: #000000;border: none;float: left;color: white;}
+.yoho-footer .yoho-footer-content .footer-top .footer-right .email-btn{display: block;height:18px;width: 26px;background-image: url(../img/QQ图片20161119131648_10.gif);float: left;margin-top: 5px;margin-left: 15px;}
+.yoho-footer .yoho-footer-content .footer-center {width: 1265px;}
+.yoho-footer .yoho-footer-content .footer-center .str{width: 178px;height: 120px;margin-top: 18px;float: left;}
+.yoho-footer .yoho-footer-content .footer-center .str p span{color: #fff; height: 24px;width: 150px;font-size: 13px;}
+.yoho-footer .yoho-footer-content .footer-center .str p a{color: #666;font-size: 12px;margin-top:8px;display: block;}
+.yoho-footer .yoho-footer-content .footer-bottom .bottom-left {width: 229px;height: 43px;overflow: hidden;float: left;}
+.yoho-footer .yoho-footer-content .footer-bottom .bottom-left .logo1{width:33px;height:45px;display: block;float: left;background-image: url(../img/QQ图片20161119131648_17.gif);}
+.yoho-footer .yoho-footer-content .footer-bottom .bottom-left .logo2{width:93px;height:45px;display: block;float: left;background-image: url(../img/credit-flag3.png);background-repeat: no-repeat;margin-top: 5px;margin-left: 5px;}
+.yoho-footer .yoho-footer-content .footer-bottom .bottom-left .logo3{width:93px;height:45px;display: block;float: left;background-image: url(../img/isc2.png);background-repeat: no-repeat;margin-top: 5px;margin-left: 5px;}
+.yoho-footer .yoho-footer-content .footer-bottom .bottom-right {width: 850px;height: 20px;float: left;}
+.yoho-footer .yoho-footer-content .footer-bottom .bottom-right .footer-nav{width: 700px;height: 20px;}
+.yoho-footer .yoho-footer-content .footer-bottom .bottom-right .footer-nav li{float: left;color: #666;font-size: 10px;padding: 0 10px;border-right: 1px solid #666;margin-top: 8px;text-align: center;}
+.yoho-footer .yoho-footer-content .footer-bottom .bottom-right .copyright{font-size: 10px;color: #666;margin-top: 5px;}
+ .list{width: 100%;height: 450px;background: #f8f8f8;overflow: hidden;position: absolute;left: 0;z-index: 2;}
+ .list .category-list{width: 180px;height: 352px;margin-top: 40px;float: left;vertical-align:baseline}
+ .list .category-list dd .hot{color: #EE0011;}
+ .list .category-list dd {color: #a1a1a1;}
+ .list .category-list dt{height: 40px;width: 180px;color:#000;border-bottom: 1px solid black;line-height: 40px;}
+ .list .category-list dt a{font-size: 15px;}
+ .list .category-list  dd{width: 180px;height: 40px;line-height: 40px;}
+ .list .category-list  dd a{font-size: 14px;}
+ .list .list-all{width: 1150px;margin: 0 auto;}
+ .list .category-list2{width: 180px;height: 352px;margin-top: 40px;float: left;vertical-align:baseline;padding-left: 30px;border-left: 1px solid #a1a1a1;	;margin-left: 30px;}
+ .list .category-list2 dd .hot{color: #EE0011;}
+ .list .category-list2 dd {color: #a1a1a1;}
+ .list .category-list2 dt{color:#000;height: 40px;width: 180px;border-bottom: 1px solid black;line-height: 40px;}
+ .list .category-list2 dt a{font-size: 15px;}
+ .list .category-list2  dd{width: 180px;height: 40px;line-height: 40px;}
+ .list .category-list2  dd a{font-size: 14px;}
+ .list .show-detail {width:171px;height: 150px;float: left;}
+ .list .show-detail .img-cloth{margin-top:40px;display: block;background-image: url(../img/010371cfe71184283615ae7b4052224a7a.jpg);width: 330px;height: 250px;display: inline-block;margin-left: 30px;}
+ .list .show-detail p{font-size: 13px;margin-left: 100px;margin-top: 40px;width: 171px;color:#000;}
+ .list .show-detail .img-shoes{margin-top:40px;display: block;background-image: url(../img/0192374311c99d9e8b94f60ab4a0ac8cfc.jpg);width: 330px;height: 250px;display: inline-block;margin-left: 30px;}
+ .list .show-detail .img-bag{margin-top:40px;display: block;background-image:url(../img/01278ab9a969c4b86be497fc55c4b2ab38.jpg) ;width: 330px;height: 250px;display: inline-block;margin-left: 30px;}
+ .list .show-detail .img-other{margin-top:40px;display: block;background-image:url(../img/019fdd6a18e9ea68c315aa761b2a648235.jpg) ;width: 330px;height: 250px;display: inline-block;margin-left: 30px;}
+ 

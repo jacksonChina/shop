@@ -1,0 +1,44 @@
+.product-detail-page{width: 100%;overflow: hidden;}
+.product-detail-page .product-detail-center{width: 1150px;margin: 0 auto;}
+.path-nav{width: 1150px;height:48px;margin-top: 30px;}
+.path-nav a{font-size: 12px;margin: 0 5px;}
+.main-show{width: 1150px;overflow: hidden;}
+.main-show .big-show{width:420px;margin-left: 100px;float: left;}
+.main-show .small-show{width: 78px;float: left;}
+.main-show .small-show img{width: 75px;height: 100px;margin-left: 3px;margin-bottom: 3px;}
+.main-show .pull-right{width: 465px;float: left;margin-left: 20px;}
+.main-show .pull-right .name{font-size: 18px;line-height: 24px;font-weight: 700;}
+.main-show .pull-right .p1{color: #666666;font-size: 12px;margin-top: 5px;}
+.main-show .pull-right .sale-price{width: 465px;overflow: hidden;height: 24px;margin-top: 5px;}
+.main-show .pull-right .title-shop{font-size: 12px;color: #999999;}
+.main-show .pull-right .price-shop{color: #000000;font-size: 22px;line-height: 24px;font-weight: 700;}
+.main-show .pull-right .vip-show{width: 465px;margin-top: 20px;}
+.main-show .pull-right .other{width: 465px;margin-top: 10px;}
+.main-show .pull-right .zp-type{display: inline-block;width: 60px;height: 16px;line-height: 16px;margin-right: 5px;text-align: center;background: #999999;color: #FFFFFF;font-size: 12px;}
+.main-show .pull-right .trade-content{padding-top: 20px;border-top: 1px solid #EAECEB;margin-top: 20px;}
+.chose-color{width: 465px;height: 45px;}
+.chose-color .span-color{font-size: 12px;color: #999999;float: left;display: block;padding-top: 10px;}
+.chose-color .corlor-pull-chose{width: 365px;float: left;}
+.chose-color .corlor-pull-chose li{float: left;margin-left: 2px;cursor: pointer;}
+.chose-color .corlor-pull-chose li img{width: display:block;background-color: #222;height: 36px;width: 36px;border: 2px solid #FFFFFF;}
+.chose-size .span-size{font-size: 12px;color: #999999;float: left;display: block;padding-top: 10px;}
+.chose-size .size li{margin-left:2px;font-size:12px;float: left;display: block;height: 22px;line-height: 24px;margin-right: 5px;margin-bottom: 5px;padding: 0 5px;border: 1px solid #EAECEB;text-align: center;cursor: pointer;min-width: 28px;margin-top: 5px;}
+.chose-number{width: 465px;height: 45px;clear: left;}
+.chose-number .c-number{font-size: 12px;color: #999999;float: left;display: block;padding-top: 10px;}
+.add{width: 465px;height: 45px;clear: left;}
+.add .add-in{margin-right: 10px;height: 48px;background: #e92601;font-size: 14px;text-align: center;width: 197px;cursor: pointer;color: white;border: none;font-weight: bold;}
+.add .collect{display: inline-block;width: 127px;height: 48px;text-align: center;line-height: 48px;color: #222222;background: #FFFFFF;border: 1px solid #CCCCCC;font-weight: 700;font-size: 12px;cursor: pointer;}
+.detail-show{width:1150px;}
+.detail-show img{margin: 0 auto;}
+.chose-it{border: 2px solid black;}
+.return-top{width: 60px;height: 60px;position: fixed;color: #FFFFFF;background: #000000;opacity: 0.5;bottom: 20px;cursor: pointer;z-index: 4;right: 40px;font-size: 50px;text-align: center;line-height: 60px;display: none;}
+.bgl-img{width: 100%;background-image: url(../img/background-top.jpg);display: inline-block;height: 55px;background-position: top 300px ;}
+.share{width: 465px;height: 45px;margin-top: 20px;font-size: 12px;color: #999999;}
+.xl{background-image: url(../img/sprite.share.png);display: block;float: left;margin-left: 5px;width: 16px;height: 16px;cursor: pointer;}
+.wx{background-image: url(../img/sprite.share.png);background-position:0 -36px;display: block;float: left;margin-left: 5px;width: 16px;height: 16px;cursor: pointer;}
+.qwb{background-image: url(../img/sprite.share.png);background-position:-18px 0px;display: block;float: left;margin-left: 5px;width: 16px;height: 16px;cursor: pointer;}
+.qqzone{background-image: url(../img/sprite.share.png);background-position:-18px -18px;display: block;float: left;margin-left: 5px;width: 16px;height: 16px;cursor: pointer;}
+.qq{background-image: url(../img/sprite.share.png);background-position:-36px 0px;display: block;float: left;margin-left: 5px;width: 16px;height: 16px;cursor: pointer;}
+.rr{background-image: url(../img/sprite.share.png);background-position:0 -18px;display: block;float: left;margin-left: 5px;width: 16px;height: 16px;cursor: pointer;}
+.db{background-image: url(../img/sprite.share.png);background-position:-36px -18px;display: block;float: left;margin-left: 5px;width: 16px;height: 16px;cursor: pointer;}
+.share-shop{float: left;display: block;}

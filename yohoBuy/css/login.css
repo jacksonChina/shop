@@ -1,0 +1,26 @@
+.rl-content-wrapper .rl-content{width: 100%;overflow: hidden;}
+.rl-content-wrapper .rl-content{width: 1150px;height: 630px;margin: 0 auto;overflow: hidden;}
+.rl-content-wrapper .rl-content .rl-content-left{float:left;width: 576px;height: 418px;border-right: 1px solid #dfdfdf;margin-top: 120px;}
+.rl-content-wrapper .rl-content .rl-content-left a{display: block;margin-left: 140px;padding-top: 100px;}
+.rl-content-wrapper .rl-content .rl-content-right{width: 500px;height: 418px;float: left;}
+.rl-content-wrapper .rl-content .rl-content-right .login{width: 274px;padding-top: 180px;margin-left: 60px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .login-top .ms{display: block;float: left;font-size: 20px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .login-top .pms{display: block;float: right;font-size: 14px;color: rgb(185,185,185);padding-top: 3px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .login-top{width: 274px;overflow: hidden;}
+.rl-content-wrapper .rl-content .rl-content-right .login .login-username{width: 268px;height: 43px;margin-top: 25px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .login-password{width: 268px;height: 43px;margin-top: 25px;}
+.rl-content-wrapper .rl-content .rl-content-right .login  .onsubmit{display:block;width: 268px;height: 43px;text-align: center;font-size:20px;background: #ff1901;color: white;margin-top: 20px;border: 1px solid #ff1901;letter-spacing: 10px;cursor: pointer;font-weight: bold;}
+.rl-content-wrapper .rl-content .rl-content-right .login .remember{color:#b9b9b9;float:left;font-size: 14px;width: 105px;float: left;display: inline-block;height: 16px;vertical-align:baseline;line-height: 16px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .re-right{height:16px;width: 132px;display: inline-block;float: right;font-size: 14px;vertical-align:baseline;line-height: 16px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .re-right .forget{margin-right: 8px;color: #b9b9b9;}
+.rl-content-wrapper .rl-content .rl-content-right .login .remember .checkB{display:block;float: left;}
+.rl-content-wrapper .rl-content .rl-content-right .login .rm-list{height:30px;margin-top: 20px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .fast-in{color: red;border-left: 1px solid black;padding-left: 3px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .connect{height: 30px;margin-top: 10px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .connect a{margin-right:15px;width: 30px;height: 30px;display: inline-block;float: left;}
+.rl-content-wrapper .rl-content .rl-content-right .login .connect .wx{background-image: url(../img/sprite.passport.png);background-position: -497px -58px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .connect .qq{background-image: url(../img/sprite.passport.png);background-position: -465px -58px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .connect .xl{background-image: url(../img/sprite.passport.png);background-position: -529px -58px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .connect .zfb{background-image: url(../img/sprite.passport.png);background-position: -423px -90px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .connect .db{background-image: url(../img/sprite.passport.png);background-position: -391px -90px;}
+.rl-content-wrapper .rl-content .rl-content-right .login .connect .pp{background-image: url(../img/sprite.passport.png);background-position: -433px -58px;}

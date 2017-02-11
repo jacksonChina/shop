@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>YohoBuy User Register</title>
+		<script type="text/javascript"src="../lib/jquery-1.12.3.js"></script>
+		<script type="text/javascript"src="../lib/jquery.cookie.js"></script>
+		<script type="text/javascript"src="../js/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script type="text/javascript" src="../js/register.js"></script>
+		
+	</head>
+	<body>
+		<div id="header"></div>
+		<div class="rl-content-wrapper">
+			<div class="rl-content">
+				<div class="rl-content-left">
+					<a href="javascript:;"><img src="../img/login-img.jpg"/></a>
+				</div>
+				<div class="rl-content-right">
+					<div class="register">
+			           <ul>
+						<li>
+							<select id="region" class="region" name="region">
+                                <option value="+61">澳大利亚</option>
+                                <option value="+82">韩国</option>
+                                <option value="+1">加拿大</option>
+                                <option value="+60">马来西亚</option>
+                                <option value="+1">美国</option>
+                                <option value="+81">日本</option>
+                                <option value="+65">新加坡</option>
+                                <option value="+44">英国</option>
+                                <option selected="selected" value="+86">中国</option>
+                                <option value="+853">中国澳门</option>
+                                <option value="+886">中国台湾</option>
+                                <option value="+852">中国香港</option>
+                        </select>
+						</li>
+						<li class="siphone"><span class="string">+86</span><input type="text" class="phone" placeholder="请输入手机号码"/></li>
+					<li class="test-in"><input type="text" class='test' placeholder="图形验证码"/><a href="javascript:;">换一张</a><input type="button" id="test" class='try'value="3242" /></li>
+			           <li class="message"><input type="text" class='mesg' placeholder="短信验证码"/><input type="button" class='getmsg' value="获取短信验证码" /></li>
+			           <li class="setpwd"><input type="password" class="pwd" placeholder="设置密码"/><div class="pwd-intensity-container">
+                            <span class="pwd-intensitylow">低</span>
+                            <span class="pwd-intensitymid">中</span>
+                            <span class="pwd-intensityhigh">高</span>
+                        </div>
+			           </li>
+			           <li class="agree"><input type="checkbox" class="checkBox01"/><span>
+                            我已阅读并同意遵守
+                            <a class="link go-yoho-items" href="javacript:;">YOHO!BUY 有货服务条款</a>
+                        </span></li>
+                        <li class="onsubmit"><input type="button" class='rightnow-register' value="立即注册" /></li>
+			           <li class="quick-login">
+                            我已注册YOHO!BUY 有货账号
+                            <a class="link-go-login" href="javascript:;">快速登录</a>
+                        </li>
+			           </ul>
+			           <div id="err-tip" class="err-tip">
+                    <span></span>
+                    <b></b>
+                       </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer"></div>
+		<script>
+			loadHtml("common/rl-header.html",'header')
+			loadHtml("common/footer.html",'footer')
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>YohoBuy Products List</title>
+		<link rel="stylesheet" type="text/css" href="../css/jquery.spinner.css"/>
+		<script type="text/javascript" src="../lib/jquery-1.8.0.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript" src="../js/goodDetail.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/goodDetail.css"/>
+		<script type="text/javascript" src="../lib/jquery.spinner.js"></script>
+		<script type="text/javascript"src="../lib/jquery.cookie.js"></script>
+	</head>
+	<body>
+		<div class="return-top">
+			^
+		</div>
+		<div id="header"></div>
+		<div class="product-detail-page">
+			<div class="bgl-img">
+					
+				</div>
+			<div class="product-detail-center">
+				
+				<div class="path-nav">
+					<span><a href="homePage.html">GIRLS首页</a></span>><span><a href="goodList.html">上衣</a></span>><span><a href="goodList.html">卫衣</a></span></span>><span><a class='lianjie' href="javascript:;"></a></span>
+				</div>
+				<div class="main-show">
+					<div class="big-show">
+						
+					</div>
+					<div class="small-show">
+						
+	                 </div>
+	                 <div class="pull-right">
+	                 	<p class="name"></p>
+	                 	<p class="p1"></p>
+	                 	<div class="sale-price">
+	                 		<span class="title-shop">促销价:</span>
+	                 		<span class="price-shop"></span>
+	                 	</div>
+	                 	<div class="vip-show"><img src="../img/main-img.jpg"/></div>
+	                 	<div class="other"><span class="zp-type">会员</span><span>
+	                 	 1128会员日翻倍升级
+	                 </span></div>
+	                 <div class="other"><span class="zp-type">赠品</span><span>
+	                 	【个性原创 感恩礼遇】满¥499即赠双肩包 赠完即止
+	                 </span></div>
+	                 <div class="trade-content">
+	                 	<div class="chose-color"><span class="span-color">选颜色:</span>
+	                 		<ul class="corlor-pull-chose">
+	                 			<li class="chose-it"></li>
+	                 			
+	                 			
+	                 		</ul>
+	                 	</div>
+	                 	<div class="chose-size">
+	                 		<span class="span-size">选尺寸:</span>
+	                 		<ul class="size">
+	                 			<li>S</li>
+	                 			<li>M</li>
+	                 			<li>L</li>
+	                 			
+	                 		</ul>
+	                 	</div>
+	                 	<div class="chose-number">
+	                 		<span class="c-number">
+	                 			选数量:
+	                 		</span>
+	                 		<input type="text" class="spinnerExample"/> 
+	                 		
+	                 	</div>
+	                 	<div class="add"><input type="button"  class="add-in" value="添加到购物车" /><span class="collect">收藏商品</span></div>
+	                 	<div class="share"><span class="share-shop">分享商品:</span><span class='xl'></span><span class='wx'></span><span class='qwb'></span><span class='qqzone'></span><span class='qq'></span><span class='rr'></span><span class='db'></span></div>
+	                 </div>
+	                 </div>
+				</div>
+			<div class="detail-show">
+				<img src="../img/s1.png"/>
+				<img src="../img/s2.png"/>
+				<img src="../img/s3.jpg"/>
+				<img src="../img/s4.jpg"/>
+				<img src="../img/s5.jpg"/>
+				<img src="../img/s6.jpg"/>
+				<img src="../img/s7.jpg"/>
+				<img src="../img/s8.jpg"/>
+				<img src="../img/s9.jpg"/>
+				<img src="../img/s10.jpg"/>
+				<img src="../img/s11.jpg"/>
+				<img src="../img/s12.jpg"/>
+				<img src="../img/s13.jpg"/>
+				<img src="../img/s14.jpg"/>
+				<img src="../img/s15.jpg"/>
+				<img src="../img/s16.png"/>
+				
+			</div>	
+			</div>
+		</div>
+		<div id="footer"></div>
+		<script type="text/javascript">
+			loadHtml("common/header.html","header",function()
+			{
+				if($.cookie("login"))
+				{
+					var sum=0;
+				var sCookie=$.cookie("login");
+				var arrCookie=JSON.parse(sCookie)
+				$('#loginBox li').eq(0).html("<a href='javascript:;'style='color:black'>Hi~"+arrCookie.data.userphone+"</a><a href='javascript:;'class='quit'>[退出]</a>");
+				if($.cookie("cart")){
+				var userphone=JSON.parse($.cookie("login")).data.userphone
+				var sCookie=JSON.parse($.cookie("cart"));
+				console.log(userphone);
+			$.each(sCookie, function(index,ele) {
+				
+				if(ele.userphone==userphone)
+				{
+				sum+=parseInt(ele.num);
+				}
+				
+			});
+			}
+			$('.number').html(sum);
+				
+				}
+			});
+			loadHtml("common/footer.html","footer");
+			$('.spinnerExample').spinner({});
+	
+        </script>
+	</body>
+</html>

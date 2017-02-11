@@ -1,0 +1,62 @@
+.goodlist-wrapper{width: 100%;overflow: hidden;}
+.goodlist-wrapper .goodlist-content{width: 1150px;margin: 0 auto;overflow: hidden;position: relative;}
+.goodlist-wrapper .goodlist-content .goolist-a{width: 1150px;margin-top: 20px;margin-bottom: 20px;}
+.goodlist-wrapper .goodlist-content .goolist-a a{font-size: 12px;margin-right: 5px;}
+.goodlist-wrapper .goodlist-content .goolist-a .a1{margin-left: 5px;}
+.goodlist-wrapper .goodlist-content .goolist-a .a2{margin-left: 5px;font-weight: bold;}
+.goodlist-wrapper .goodlist-content .goodlist-list{width: 160px;overflow: hidden;float: left;}
+.goodlist-wrapper .goodlist-content .goodlist-list .upper,.coving,.skirt,.shoes,.bag,.ornament,.fitment,.swim,.child,.life{margin-top: 10px;display: block;font-weight: bold;}
+.goodlist-wrapper .goodlist-content .goodlist-list .cloes-list,.coving-list,.skirt-list,.shoes-list,.bag-list,.child-list,.ornament-list,.fitment-list,.life-list,.swim-list{overflow: hidden;height: 0;}
+.goodlist-wrapper .goodlist-content .goodlist-list .cloes-list li,.coving-list li,.skirt-list li,.shoes-list li,.child-list li,.bag-list li,.ornament-list li,.fitment-list li,.life-list li,.swim-list li{margin:10px 0;font-size: 12px;}
+.goodlist-wrapper .goodlist-content .goodlist-right{width: 985px;float: left;}
+.goodlist-wrapper .goodlist-content .goodlist-right .detail{width: 386px;text-align: center;padding: 0 50px;height: 298px;border: 1px solid #eaeceb;text-align: center;overflow: hidden;float: left;margin-left: 15px;}
+.goodlist-wrapper .goodlist-content .goodlist-right .detail .name{font-size: 30px;font-weight: 700;margin-top: 60px;display: block;}
+.goodlist-wrapper .goodlist-content .goodlist-right .detail .en-name{font-size: 14px;font-weight: 700;}
+.goodlist-wrapper .goodlist-content .goodlist-right .detail .desc{color: #666666;line-height: 150%;font-size: 12px;width: 386px;margin: 0 auto;display: block;margin-top: 15px;}
+.goodlist-wrapper .goodlist-content .goodlist-right img{float: left;margin-left: 1px;}
+.goodlist-wrapper .goodlist-content .left-phone{width: 160px;}
+.goodlist-wrapper .goodlist-content .left-phone img{display: block;margin-top: 10px;}
+.goodlist-wrapper .goodlist-content .filter-box{width: 985px;float: left;margin-top: 35px;}
+.goodlist-wrapper .goodlist-content .filter-box .attr-content{width: 970px;overflow: hidden;background: #eaeceb;margin-left: 15px;height: 55px;}
+ .attr{float: left;line-height: 45px;font-weight: 700;width: 75px;display: block;margin-top: 5px;margin-left: 10px;font-size: 12px;}
+.goodlist-wrapper .goodlist-content .filter-box .attr-content .girls{display: block;float: left;margin: 5px 30px 5px 0;color: #FFFFFF;cursor: pointer;background: #000000;width: 58px;height: 35px;line-height: 45px;text-align: center;font-size: 12px;}
+.goodlist-wrapper .goodlist-content .filter-box .channel{width: 968px;overflow: hidden;border: 1px solid #eaeceb;margin-left: 15px;height: 55px;}
+.attr-string{line-height: 45px;margin-right: 40px;display: block;float: left;margin-top: 5px;}
+.brand-select{width: 968px;overflow: hidden;border: 1px solid #eaeceb;margin-left: 15px;border-top: none;}
+ .attr{float: left;line-height: 45px;font-weight: 700;width: 75px;display: block;margin-top: 5px;margin-left: 10px;font-size: 12px;}
+.attr-string01{line-height: 45px;display: block;float: left;margin-top: 5px;width:130px;font-size: 15px;}
+ .brand-right{width: 830px;overflow: hidden;float: left;}
+ .brand-right01{width: 830px;overflow: hidden;float: left;}
+ .people{width: 968px;overflow: hidden;border: 1px solid #eaeceb;margin-left: 15px;border-top: none;}
+.price{width: 968px;overflow: hidden;border: 1px solid #eaeceb;margin-left: 15px;border-top: none;}
+.color{width: 968px;overflow: hidden;border: 1px solid #eaeceb;margin-left: 15px;border-top: none;}
+.color-block{width: 20px;height: 20px;display: block;float: left;margin-top: 15px;}
+.brand-right01 li a{display: block;margin-left: 25px;width: 40px;height: 45px;}
+.brand-right01 li{width: 80px;height: 45px;line-height: 50px;float: left;}
+.brand-right01 ul{width: 830px;overflow: hidden;float: left;}
+.brand-right02{width: 830px;overflow: hidden;float: left;}
+.brand-right02 li a{display: block;width: 40px;height: 45px;}
+.brand-right02 li{width: 50px;height: 45px;line-height: 50px;float: left;}
+.brand-right02 ul{width: 830px;overflow: hidden;float: left;}
+.sort-page{float:right;height: 48px;background: #f5f7f6;line-height: 48px;width: 970px;margin-top: 20px;margin-right: 8px;}
+.sort-page-list li{width: 65px;float: left;text-align: center;font-size: 12px;color: #999;}
+.list-show{float:right;width:980px;overflow: hidden;margin-top: 30px;margin-bottom: 50px;}
+.good-info{width: 235px;float: left;border: none;margin-right: 10px;height: 420px;margin-bottom: 12px;}
+.good-info .good-detail-text{line-height: 1.5;display: block;margin-top: 16px;font-size: 13px;width: 235px;height: 20px;overflow: hidden;}
+.good-info .brand{display: block;margin-top: 2px;color: #B9B9B9;}
+.good-info .price-list {display: block;margin-left: 0;margin-top: 10px;margin-bottom: 20px;}
+.good-info img{width: 235px;}
+.return-top{width: 60px;height: 60px;position: fixed;color: #FFFFFF;background: #000000;opacity: 0.5;bottom: 20px;cursor: pointer;z-index: 4;right: 40px;font-size: 50px;text-align: center;line-height: 60px;display: none;}
+.effect{width: 360px;height: 463px;border: 1px solid #DDDDDD;position: absolute;left: 145px;top: 1020px;display:none;z-index: 100;background-color: white;}
+.effectimg{width: 235px;height:315px;margin-top: 30px;z-index: 10;margin-left:24px;float: left;}
+.show-right{width: 60px;margin-top: 30px;float: left;margin-left: 10px;}
+.effectimg01{width:50px;height: 68px;margin-bottom: 5px;}
+.good-detail-text01{line-height: 1.5;display: block;padding-top: 19px;margin-left:24px;font-size: 13px;width: 235px;height: 20px;overflow: hidden;}
+.brand01{display: block;margin-top: 2px;color: #B9B9B9;margin-left:24px;}
+.price-list01{display: block;margin-left: 0;margin-top: 10px;margin-bottom: 20px;margin-left:24px;}
+.meanu{border-bottom: 1px solid #eaeceb;padding-bottom: 50px;}
+.goodlist-wrapper .goodlist-content .goodlist-list img{margin-top: 10px;}
+.pag-sum{font-size: 12px;color: #6a6a6a;}
+.connent-bottom{width: 970px;overflow: hidden;height: 65px;border-top: 1px solid #eaeceb;padding-top: 20px;}
+.meanu-pag{width: 300px;float: right;}
+.meanu-pag li{float: left;width: 30px;text-align: center;font-size: 12px;color: #222222;cursor: pointer;}

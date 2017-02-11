@@ -1,0 +1,695 @@
+
+{
+    "banner01":
+	[{
+	    "src":"../img/banner01.jpg"
+	   
+	},
+	{
+	    "src":"../img/banner02.jpg" 
+	},
+	{
+	    "src":"../img/banner03.jpg"
+	},
+	{
+	    "src":"../img/banner04.jpg"
+	},
+	{
+	    "src":"../img/banner05.jpg"
+	},
+	{
+	    "src":"../img/banner06.jpg"
+	},
+	{
+	    "src":"../img/banner07.jpg"
+	},
+	{
+	    "src":"../img/banner08.jpg"
+	}],
+	  "banner02":
+	[{
+	    "src":"../img/bar01.jpg"
+	},
+	{
+	    "src":"../img/bar02.jpg"
+	},
+	{
+	    "src":"../img/bar03.jpg"
+	},
+	{
+	    "src":"../img/bar04.jpg"
+	},
+	{
+	    "src":"../img/bar05.jpg"
+	},
+	{
+	    "src":"../img/bar06.jpg"
+	},
+	{
+	    "src":"../img/bar07.jpg"
+	},
+	{
+	    "src":"../img/bar08.jpg"
+	},
+	{
+	    "src":"../img/bar09.jpg"
+	},{
+	    "src":"../img/bar01.jpg"
+	},{
+	    "src":"../img/bar02.jpg"
+	},{
+	    "src":"../img/bar03.jpg"
+	}],
+	"brand":{
+	"brand01":{
+	 
+	    "1":"../img/01.jpg",
+	
+	
+	    "2":"../img/02.jpg",
+	
+	
+	    "3":"../img/03.jpg",
+	
+	
+	    "4":"../img/04.jpg",
+	
+	
+	    "5":"../img/05.jpg",
+	
+	
+	    "6":"../img/06.jpg",
+	
+	
+	    "7":"../img/07.jpg",
+	
+	
+	    "8":"../img/08.jpg",
+	
+	
+	    "9":"../img/09.jpg",
+	
+	
+	    "10":"../img/10.jpg"
+	},
+	"brand02":{
+	 
+	    "1":"../img/11.jpg",
+	
+	
+	    "2":"../img/12.jpg",
+	
+	
+	    "3":"../img/13.jpg",
+	
+	
+	    "4":"../img/14.jpg",
+	
+	
+	    "5":"../img/15.jpg",
+	
+	
+	    "6":"../img/16.jpg",
+	
+	
+	    "7":"../img/17.jpg",
+	
+	
+	    "8":"../img/18.jpg",
+	
+	
+	    "9":"../img/19.jpg",
+	
+	
+	    "10":"../img/20.jpg"
+	},
+		"brand03":{
+	 
+	    "1":"../img/21.jpg",
+	
+	
+	    "2":"../img/22.jpg",
+	
+	
+	    "3":"../img/23.jpg",
+	
+	
+	    "4":"../img/24.jpg",
+	
+	
+	    "5":"../img/25.jpg",
+	
+	
+	    "6":"../img/26.jpg",
+	
+	
+	    "7":"../img/27.jpg",
+	
+	
+	    "8":"../img/28.jpg",
+	
+	
+	    "9":"../img/29.jpg",
+	
+	
+	    "10":"../img/30.jpg"
+	}
+	},
+	"in01":
+	[{
+	    "src":"../img/show-in01.jpg"
+	},
+	{
+	    "src":"../img/show-in02.jpg"
+	},
+	{
+	    "src":"../img/show-in03.jpg"
+	}],
+	"shop01":
+	
+	{
+	    "jacket":"../img/jacket.jpg",
+	
+	    "show01":"../img/show01.jpg",
+	
+	
+	    "show02":"../img/show02.jpg",
+	
+	
+	    "show03":"../img/show03.jpg",
+	
+	    "show04":"../img/show04.jpg",
+	
+	    "show05":"../img/show05.jpg",
+	
+	    "show06":"../img/show06.jpg"
+	},"in02":
+	[{
+	    "src":"../img/show-in04.jpg"
+	},
+	{
+	    "src":"../img/show-in05.jpg"
+	},
+	{
+	    "src":"../img/show-in06.jpg"
+	}],
+	"shop02":
+	
+	{
+	    "jacket":"../img/shoes.jpg",
+	
+	    "show01":"../img/show07.jpg",
+	
+	
+	    "show02":"../img/show08.jpg",
+	
+	
+	    "show03":"../img/show09.jpg",
+	
+	    "show04":"../img/show10.jpg",
+	
+	    "show05":"../img/show11.jpg",
+	
+	    "show06":"../img/show12.jpg"
+	},"in03":
+	[{
+	    "src":"../img/show-in07.jpg"
+	},
+	{
+	    "src":"../img/show-in08.jpg"
+	},
+	{
+	    "src":"../img/show-in09.jpg"
+	}],
+	"shop03":
+	
+	{
+	    "jacket":"../img/ou.jpg",
+	
+	    "show01":"../img/show13.jpg",
+	
+	
+	    "show02":"../img/show14.jpg",
+	
+	
+	    "show03":"../img/show15.jpg",
+	
+	    "show04":"../img/show16.jpg",
+	
+	    "show05":"../img/show17.jpg",
+	
+	    "show06":"../img/show18.jpg"
+	},"in04":
+	[{
+	    "src":"../img/show-in10.jpg"
+	},
+	{
+	    "src":"../img/show-in11.jpg"
+	},
+	{
+	    "src":"../img/show-in12.jpg"
+	}],
+	"shop04":
+	
+	{
+	    "jacket":"../img/run.jpg",
+	
+	    "show01":"../img/show19.jpg",
+	
+	
+	    "show02":"../img/show20.jpg",
+	
+	
+	    "show03":"../img/show21.jpg",
+	
+	    "show04":"../img/show22.jpg",
+	
+	    "show05":"../img/show23.jpg",
+	
+	    "show06":"../img/show24.jpg"
+	},
+	"top100":
+	[{
+	    "src":"../img/top01.jpg",
+	    "p1":"山雾花野Flower MOUNTAIN 山野户外跑鞋",
+	    "p2":"¥699.00"
+	},
+	{
+	    "src":"../img/top02.jpg",
+	    "p1":"BOY BY BOY 朋克扣环拉链休闲夹克",
+	    "p2":"¥1759.00"
+	},
+	{
+	    "src":"../img/top03.jpg",
+	    "p1":"adidas Originals 女 TUBULAR DEFIANT W 休闲运动鞋",
+	    "p2":"¥959.00"
+	},
+	{
+	    "src":"../img/top04.jpg",
+	    "p1":"adidas Originals 女 GAZELLE 休闲滑板鞋",
+	    "p2":"¥599.00"
+	},
+	{
+	    "src":"../img/top05.jpg",
+	    "p1":"P.A.M. 印花图案刺绣夹克",
+	    "p2":"¥669.00"
+	},
+	{
+	    "src":"../img/top06.jpg",
+	    "p1":"converse  SHIELD HOODED",
+	    "p2":"¥1799.00"
+	},
+	{
+	    "src":"../img/top07.jpg",
+	    "p1":"ASH 深灰色翻毛皮粗跟短靴（明星同款）",
+	    "p2":"¥1672.00"
+	},
+	{
+	    "src":"../img/top08.jpg",
+	    "p1":"AKOP. 字母贴布大衣",
+	    "p2":"¥599.00"
+	},{
+	    "src":"../img/top09.jpg",
+	    "p1":"Arubafootwear 女士高帮休闲靴子",
+	    "p2":"¥699.00"
+	},{
+	    "src":"../img/top10.jpg",
+	    "p1":"AKOP. 徽章刺绣棉衣",
+	    "p2":"¥699.00"
+	},{
+	    "src":"../img/top11.jpg",
+	    "p1":"Dr.Martens 女款 8 Eye Boot",
+	    "p2":"¥1219.00"
+	},{
+	    "src":"../img/top12.jpg",
+	    "p1":"VANS Old Skool",
+	    "p2":"¥565.00"
+	}],
+	"topLogo":
+	[
+	{
+	"src":"../img/toplogo01.jpg"
+	},
+	{
+	"src":"../img/toplogo02.jpg"
+	},
+	{
+	"src":"../img/toplogo03.jpg"
+	},
+	{
+	"src":"../img/toplogo04.jpg"
+	},
+	{
+	"src":"../img/toplogo05.jpg"
+	},
+	{
+	"src":"../img/toplogo06.jpg"
+	}
+	],
+	"newArrivals":
+	[{
+	    "src":"../img/new01.jpg",
+	    "p1":"BOY LONDON 牛仔休闲夹克",
+	    "p2":"¥899.00"
+	},
+	{
+	    "src":"../img/new02.jpg",
+	    "p1":"RIGEL DAVIS 扣环黑色牛仔夹克",
+	    "p2":"¥169.00"
+	},
+	{
+	    "src":"../img/new03.jpg",
+	    "p1":"TYAKASHA塔卡沙 女款蓝色磨毛卡其外套",
+	    "p2":"¥454.00"
+	},
+	{
+	    "src":"../img/new04.jpg",
+	    "p1":"M.WOWL X MARVEL漫威联名 印花正反两穿夹克",
+	    "p2":"¥999.00"
+	},
+	{
+	    "src":"../img/new05.jpg",
+	    "p1":"BOY LONDON 长款风衣夹克",
+	    "p2":"¥879.00"
+	},
+	{
+	    "src":"../img/new06.jpg",
+	    "p1":"TAKA ORIGINAL 中长款刺绣毛呢大衣 黑色",
+	    "p2":"¥344.00"
+	},
+	{
+	    "src":"../img/new07.jpg",
+	    "p1":"Bearburry 黑色印花风衣",
+	    "p2":"¥409.00"
+	},
+	{
+	    "src":"../img/new08.jpg",
+	    "p1":"Into The Rainbow 字母图案印花加绒风衣",
+	    "p2":"¥549.00"
+	},{
+	    "src":"../img/new09.jpg",
+	    "p1":"BOY LONDON 图案印花卫衣",
+	    "p2":"¥1299.00"
+	},{
+	    "src":"../img/new10.jpg",
+	    "p1":"YYYOHOOD 黄伟文Wyman X yohood联名商品 圆领卫衣",
+	    "p2":"¥169.00"
+	},{
+	    "src":"../img/new11.jpg",
+	    "p1":"RIGEL DAVIS 超长袖连帽套头卫衣",
+	    "p2":"¥239.00"
+	},{
+	    "src":"../img/new12.jpg",
+	    "p1":"Stussy 趣味图案印花卫衣",
+	    "p2":"¥619.00"
+	},{
+	    "src":"../img/new13.jpg",
+	    "p1":"VANS Old Skool W",
+	    "p2":"¥635.00"
+	},{
+	    "src":"../img/new14.jpg",
+	    "p1":"converse Chuck Taylor Woman",
+	    "p2":"¥199.00"
+	},{
+	    "src":"../img/new15.jpg",
+	    "p1":"PUMA DISC BLAZE CELL 运动鞋",
+	    "p2":"¥969.00"
+	},{
+	    "src":"../img/new16.jpg",
+	    "p1":"Asics Tiger GEL-LYTE V W复古跑鞋",
+	    "p2":"¥549.00"
+	},{
+	    "src":"../img/new17.jpg",
+	    "p1":"AKOP.棒球服棉衣",
+	    "p2":"¥429.00"
+	},{
+	    "src":"../img/new18.jpg",
+	    "p1":"Dickies  面料拼接棉弹力绣花充棉棒球夹克",
+	    "p2":"¥449.00"
+	},{
+	    "src":"../img/new19.jpg",
+	    "p1":"M.WOWL X MARVEL漫威联名 纯色宽松毛绒连帽棉服",
+	    "p2":"¥1499.00"
+	},{
+	    "src":"../img/new20.jpg",
+	    "p1":"TYAKASHA塔卡沙   女款蓝灰色定制铅笔扣棉服",
+	    "p2":"¥418.00"
+	},{
+	    "src":"../img/new21.jpg",
+	    "p1":"NBA STYLE 萨克拉门托国王队长款羽绒服",
+	    "p2":"¥1389.00"
+	},{
+	    "src":"../img/new22.jpg",
+	    "p1":"oh my girl 纯色连帽羽绒服 黑色",
+	    "p2":"¥384.00"
+	},{
+	    "src":"../img/new23.jpg",
+	    "p1":"LUNA LIMITED  暗黑风防风长款羽绒大衣",
+	    "p2":"¥769.00"
+	},{
+	    "src":"../img/new24.jpg",
+	    "p1":"ABLE JEANS 女式BODY短款羽绒服",
+	    "p2":"¥649.00"
+	},{
+	    "src":"../img/new25.jpg",
+	    "p1":"Life·After Life 【吴亦凡同款】哈士奇卡通图案圆领毛衣",
+	    "p2":"¥189.00"
+	},{
+	    "src":"../img/new26.jpg",
+	    "p1":"【Eason陈奕迅亲身试着】YYYOHOOD 黄伟文Wyman X yohood联名 圆领毛衣",
+	    "p2":"¥169.00"
+	},{
+	    "src":"../img/new27.jpg",
+	    "p1":"AKOP. 纯色羊毛高领毛衣",
+	    "p2":"¥219.00"
+	},{
+	    "src":"../img/new28.jpg",
+	    "p1":"Bearburry 字母印花圆领毛衣",
+	    "p2":"¥229.00"
+	},{
+	    "src":"../img/new29.jpg",
+	    "p1":"Dr.Martens  女款 8 Eye Boot",
+	    "p2":"¥939.00"
+	},{
+	    "src":"../img/new30.jpg",
+	    "p1":"IVYBOI×INTREPID联名款 黑色波浪纹登山靴 超轻",
+	    "p2":"¥329.00"
+	},{
+	    "src":"../img/new31.jpg",
+	    "p1":"JUMBOUGG   女款经典纯色雪地靴",
+	    "p2":"¥467.00"
+	},{
+	    "src":"../img/new32.jpg",
+	    "p1":"HALFGIRL 圆头麂皮绒粗筒短靴",
+	    "p2":"¥399.00"
+	},{
+	    "src":"../img/new33.jpg",
+	    "p1":"BOY LONDON 字母印花卫裤",
+	    "p2":"¥589.00"
+	},{
+	    "src":"../img/new34.jpg",
+	    "p1":"Into The Rainbow 卡通蝙蝠侠印花休闲长裤",
+	    "p2":"¥229.00"
+	},{
+	    "src":"../img/new35.jpg",
+	    "p1":"iyogurt 字母印花束口休闲九分裤",
+	    "p2":"¥89.00"
+	},{
+	    "src":"../img/new36.jpg",
+	    "p1":"SYS.tag LOGO印花束脚休闲长裤(男女通用)",
+	    "p2":"¥109.00"
+	},{
+	    "src":"../img/new37.jpg",
+	    "p1":"Into The Rainbow 鲨鱼嘴裤脚牛仔裤",
+	    "p2":"¥109.00"
+	},{
+	    "src":"../img/new38.jpg",
+	    "p1":"BOY LONDON 纯色修身牛仔裤",
+	    "p2":"¥799.00"
+	},{
+	    "src":"../img/new39.jpg",
+	    "p1":"CHEAP MONDAY 女款纯色休闲牛仔裤",
+	    "p2":"¥119.00"
+	},{
+	    "src":"../img/new40.jpg",
+	    "p1":"Juni&Juli 女士破洞毛边牛仔裤",
+	    "p2":"¥359.00"
+	},{
+	    "src":"../img/new41.jpg",
+	    "p1":"LESSISGOOD 黑色字母长款连衣裙",
+	    "p2":"¥132.00"
+	},{
+	    "src":"../img/new42.jpg",
+	    "p1":"Juni&Juli 女士休闲连帽针织连衣裙",
+	    "p2":"¥249.00"
+	},{
+	    "src":"../img/new43.jpg",
+	    "p1":"LUNA LIMITED 羊毛针织连衣裙",
+	    "p2":"¥299.00"
+	},{
+	    "src":"../img/new44.jpg",
+	    "p1":"MYGESMART 字母连帽box印花连衣裙",
+	    "p2":"¥139.00"
+	},{
+	    "src":"../img/new45.jpg",
+	    "p1":"TEEBACCO 樱桃图案印花短袖T恤",
+	    "p2":"¥39.00"
+	},{
+	    "src":"../img/new46.jpg",
+	    "p1":"AKOP. 【江疏影同款】插肩长袖T恤",
+	    "p2":"¥169.00"
+	},{
+	    "src":"../img/new47.jpg",
+	    "p1":"【秋季新品】HALFGIRL 大圆领简约长袖T恤",
+	    "p2":"¥39.00"
+	},{
+	    "src":"../img/new48.jpg",
+	    "p1":"islandhaze 女款浅紫色圆领短袖T恤",
+	    "p2":"¥9.00"
+	},{
+	    "src":"../img/new49.jpg",
+	    "p1":"AKOP. 撞色底边长袖衬衫",
+	    "p2":"¥159.00"
+	},{
+	    "src":"../img/new50.jpg",
+	    "p1":"Madgirl BOYFRIEND SHIRT 衬衫",
+	    "p2":"¥599.00"
+	},{
+	    "src":"../img/new51.jpg",
+	    "p1":"Dickies  女士纯色休闲衬衫",
+	    "p2":"¥299.00"
+	},{
+	    "src":"../img/new52.jpg",
+	    "p1":"HALFGIRL 纯色简约工装长袖衬衫",
+	    "p2":"¥219.00"
+	},{
+	    "src":"../img/new53.jpg",
+	    "p1":"M.WOWL 黑色字母印花半身裙",
+	    "p2":"¥269.00"
+	},{
+	    "src":"../img/new54.jpg",
+	    "p1":"HALFGIRL 百褶半身裙",
+	    "p2":"¥149.00"
+	},{
+	    "src":"../img/new55.jpg",
+	    "p1":"Juni&Juli 女士学院风针织半裙",
+	    "p2":"¥299.00"
+	},{
+	    "src":"../img/new56.jpg",
+	    "p1":"ROCOCO洛可可 百搭显瘦A字半身裙",
+	    "p2":"¥138.00"
+	},{
+	    "src":"../img/new57.jpg",
+	    "p1":"Dr.Martens 女款 Dbl Strap Mary Jane",
+	    "p2":"¥899.00"
+	},{
+	    "src":"../img/new58.jpg",
+	    "p1":"JUMBOUGG 女款简约纯色豆豆鞋",
+	    "p2":"¥239.00"
+	},{
+	    "src":"../img/new59.jpg",
+	    "p1":"VDSOUL  时尚休闲工装鞋",
+	    "p2":"¥249.00"
+	},{
+	    "src":"../img/new60.jpg",
+	    "p1":"reemoor 甜美装饰平底浅口鞋-黑色",
+	    "p2":"¥298.00"
+	},{
+	    "src":"../img/new61.jpg",
+	    "p1":"MACROPUS 尼龙简约单肩挎包",
+	    "p2":"¥35.00"
+	},{
+	    "src":"../img/new62.jpg",
+	    "p1":"Storm Stamps三角斜拉链休闲个性单肩挎包",
+	    "p2":"¥39.00"
+	},{
+	    "src":"../img/new63.jpg",
+	    "p1":"COMBACK 黑魂皮革系列 黑色单扣斜挎包",
+	    "p2":"¥188.00"
+	},{
+	    "src":"../img/new64.jpg",
+	    "p1":"VANS BEEN THERE DONE THAT TOTE",
+	    "p2":"¥160.00"
+	},{
+	    "src":"../img/new65.jpg",
+	    "p1":"MACROPUS 时尚军装系列 双肩包(男女通用)",
+	    "p2":"¥99.00"
+	},{
+	    "src":"../img/new66.jpg",
+	    "p1":"Herschel Supply x Coca-Cola 合作款双肩包",
+	    "p2":"¥669.00"
+	},{
+	    "src":"../img/new67.jpg",
+	    "p1":"Jansport T08W超级叛逆者25升双肩包",
+	    "p2":"¥132.00"
+	},{
+	    "src":"../img/new68.jpg",
+	    "p1":"COMBACK 黑魂皮革系列  黑色PU翻盖双肩包",
+	    "p2":"¥209.00"
+	},{
+	    "src":"../img/new69.jpg",
+	    "p1":"GAWS CAP 立体字母刺绣棒球帽",
+	    "p2":"¥79.00"
+	},{
+	    "src":"../img/new70.jpg",
+	    "p1":"TMCAZ 马海毛混纺绒线冷帽 黑灰色",
+	    "p2":"¥88.00"
+	},{
+	    "src":"../img/new71.jpg",
+	    "p1":"corade “小恐龙”黑色爸爸弯檐帽",
+	    "p2":"¥99.00"
+	},{
+	    "src":"../img/new72.jpg",
+	    "p1":"BOY LONDON 绒面鸭舌帽",
+	    "p2":"¥319.00"
+	},{
+	    "src":"../img/new73.jpg",
+	    "p1":"Pineal Body 天使之翼刻字手环",
+	    "p2":"¥59.00"
+	},{
+	    "src":"../img/new74.jpg",
+	    "p1":"Beastie 五色手碗带套装",
+	    "p2":"¥39.00"
+	},{
+	    "src":"../img/new75.jpg",
+	    "p1":"RASEN family NU真皮混扎手链（深棕）",
+	    "p2":"¥35.00"
+	},{
+	    "src":"../img/new76.jpg",
+	    "p1":"M.WOWL 黑色十字logo项链",
+	    "p2":"¥79.00"
+	},{
+	    "src":"../img/new77.jpg",
+	    "p1":"EMIE  时光时尚简约手表",
+	    "p2":"¥499.00"
+	},{
+	    "src":"../img/new78.jpg",
+	    "p1":"MLB Fifth Avenue第五大道系列  休闲时尚腕表",
+	    "p2":"¥499.00"
+	},{
+	    "src":"../img/new79.jpg",
+	    "p1":"CLING  超薄智能手表-红色",
+	    "p2":"¥199.00"
+	},{
+	    "src":"../img/new80.jpg",
+	    "p1":"G-SHOCK  BABY-G经典时尚运动女表 BGD-180FB-7",
+	    "p2":"¥839.00"
+	}],
+	"melodic":
+	[{
+	    "src":"../img/melodic01.jpg"
+	},
+	{
+	    "src":"../img/melodic02.jpg"
+	},
+	{
+	    "src":"../img/melodic03.jpg"
+	},
+	{
+	    "src":"../img/melodic04.jpg"
+	},
+	{
+	    "src":"../img/melodic05.jpg"
+	}]
+}
+	
